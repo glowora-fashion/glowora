@@ -1,104 +1,145 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Glowora</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-body{margin:0;background:#faf5ee;font-family:Inter,sans-serif;color:#3b2a1d}
-.hero{height:90vh;background:linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.35)),url('images/product1.jpg') center/cover;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff}
-.hero h1{font-family:'Playfair Display';font-size:4rem;margin:0}
-.btn{background:#c89b3c;padding:14px 28px;border-radius:30px;color:white;text-decoration:none}
-.section{padding:60px 5%}
-.products{display:flex;gap:20px;overflow-x:auto;padding-bottom:20px;scroll-snap-type:x mandatory}
-.products::-webkit-scrollbar{height:8px}
-.card{min-width:280px;background:white;border-radius:18px;overflow:hidden;scroll-snap-align:start;box-shadow:0 8px 20px rgba(0,0,0,.08)}
-.card img{width:100%;height:350px;object-fit:cover}
-.card h3,.card p{padding:0 15px}
-.contact{background:#2d2218;color:white;border-radius:20px;padding:30px}
-footer{text-align:center;padding:30px}
-</style>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-<section class="hero">
-<div>
+<nav>
+<div class="logo">Glowora</div>
+<div class="menu"><a href="#collection">Collection</a><a href="#contact">Contact</a></div>
+</nav>
+
+<header class="hero">
+<div class="hero-content">
 <h1>Glowora</h1>
-<p>Timeless Beauty, Eternal Glow</p>
-<a class="btn" href="#">Explore Collection</a>
+<p>Shine Everyday • Timeless Elegance</p>
+<a href="#collection" class="btn">Explore Collection</a>
+</div>
+</header>
+
+<section class="intro">
+<h2>Made To Shine, Made For You</h2>
+<p>Elegant jewellery crafted for everyday charm and special moments.</p>
+</section>
+
+<section id="collection">
+<h2 class="title">Featured Collection</h2>
+<div class="carousel">
+
+<div class="card">
+<img src="images/product1.jpg">
+<div class="card-content">
+<h3>Product ABCDE 1</h3>
+<p>Premium • Elegant • Lightweight</p>
+<button>Enquire Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="images/product2.jpg">
+<div class="card-content">
+<h3>Product ABCDE 2</h3>
+<p>Premium • Elegant • Lightweight</p>
+<button>Enquire Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="images/product3.jpg">
+<div class="card-content">
+<h3>Product ABCDE 3</h3>
+<p>Premium • Elegant • Lightweight</p>
+<button>Enquire Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="images/product4.jpg">
+<div class="card-content">
+<h3>Product ABCDE 4</h3>
+<p>Premium • Elegant • Lightweight</p>
+<button>Enquire Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="images/product5.jpg">
+<div class="card-content">
+<h3>Product ABCDE 5</h3>
+<p>Premium • Elegant • Lightweight</p>
+<button>Enquire Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="images/product6.jpg">
+<div class="card-content">
+<h3>Product ABCDE 6</h3>
+<p>Premium • Elegant • Lightweight</p>
+<button>Enquire Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="images/product7.jpg">
+<div class="card-content">
+<h3>Product ABCDE 7</h3>
+<p>Premium • Elegant • Lightweight</p>
+<button>Enquire Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="images/product8.jpg">
+<div class="card-content">
+<h3>Product ABCDE 8</h3>
+<p>Premium • Elegant • Lightweight</p>
+<button>Enquire Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="images/product9.jpg">
+<div class="card-content">
+<h3>Product ABCDE 9</h3>
+<p>Premium • Elegant • Lightweight</p>
+<button>Enquire Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="images/product10.jpg">
+<div class="card-content">
+<h3>Product ABCDE 10</h3>
+<p>Premium • Elegant • Lightweight</p>
+<button>Enquire Now</button>
+</div>
+</div>
+
+</div></section>
+
+<section class="banner">
+<h2>Why Glowora?</h2>
+<div class="features">
+<div>✨ Premium Quality</div>
+<div>🛡️ Anti Tarnish</div>
+<div>💎 Elegant Designs</div>
+<div>🎁 Perfect Gift</div>
 </div>
 </section>
 
-<section class="section">
-<h2>Featured Collection</h2>
-<p>Swipe horizontally to explore products.</p>
-<div class="products">
-
-    <div class="card">
-      <img src="images/product1.jpg">
-      <h3>Product Name ABCDE 1</h3>
-      <p>₹ XXXX</p>
-    </div>
-    <div class="card">
-      <img src="images/product2.jpg">
-      <h3>Product Name ABCDE 2</h3>
-      <p>₹ XXXX</p>
-    </div>
-    <div class="card">
-      <img src="images/product3.jpg">
-      <h3>Product Name ABCDE 3</h3>
-      <p>₹ XXXX</p>
-    </div>
-    <div class="card">
-      <img src="images/product4.jpg">
-      <h3>Product Name ABCDE 4</h3>
-      <p>₹ XXXX</p>
-    </div>
-    <div class="card">
-      <img src="images/product5.jpg">
-      <h3>Product Name ABCDE 5</h3>
-      <p>₹ XXXX</p>
-    </div>
-    <div class="card">
-      <img src="images/product6.jpg">
-      <h3>Product Name ABCDE 6</h3>
-      <p>₹ XXXX</p>
-    </div>
-    <div class="card">
-      <img src="images/product7.jpg">
-      <h3>Product Name ABCDE 7</h3>
-      <p>₹ XXXX</p>
-    </div>
-    <div class="card">
-      <img src="images/product8.jpg">
-      <h3>Product Name ABCDE 8</h3>
-      <p>₹ XXXX</p>
-    </div>
-    <div class="card">
-      <img src="images/product9.jpg">
-      <h3>Product Name ABCDE 9</h3>
-      <p>₹ XXXX</p>
-    </div>
-    <div class="card">
-      <img src="images/product10.jpg">
-      <h3>Product Name ABCDE 10</h3>
-      <p>₹ XXXX</p>
-    </div>
-</div>
-</section>
-
-<section class="section">
-<div class="contact">
+<section id="contact" class="contact">
 <h2>Contact Us</h2>
-<p>WhatsApp: ABCDE</p>
-<p>Instagram: ABCDE</p>
+<p>WhatsApp: 90xxxxxxx</p>
+<p>Instagram: Glowora</p>
 <p>Email: ABCDE</p>
-<p>Address: ABCDE</p>
-</div>
+<p>Address: Hirawadi, Ahmedabad</p>
 </section>
 
-<footer>
-© Glowora | Shine Everyday
-</footer>
+<a class="whatsapp" href="#">WhatsApp</a>
 </body>
 </html>
